@@ -11,6 +11,7 @@
 | Data augmentation |  1.5012   |    0.6087     |
 |  L1 regularization   |  2.1171   |    0.5556     |
 |  L2 regularization   |  1.9193   |    0.5254     |
+|  Dropout   |  1.7180   |    0.5735     |
 
 **Learning curves**
 
