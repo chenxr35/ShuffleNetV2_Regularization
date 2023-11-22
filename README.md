@@ -9,7 +9,8 @@
 |:-----------------:|:---------:|:-------------:|
 |       None        |  1.9833   |    0.5259     |
 | Data augmentation |  1.5012   |    0.6087     |
-|  L1 regularizer   |  2.1171   |    0.5556     |
+|  L1 regularization   |  2.1171   |    0.5556     |
+|  L2 regularization   |  1.9193   |    0.5254     |
 
 **Learning curves**
 
