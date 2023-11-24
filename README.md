@@ -5,15 +5,16 @@
 
 **Test accuracy and loss**
 
-|       Regularization       | Test loss | Test accuracy |
-|:--------------------------:|:---------:|:-------------:|
-|            None            |  1.9833   |    0.5259     |
-|     Data augmentation      |  1.5012   |    0.6087     |
-| L1 regularization (0.001)  |  2.1171   |    0.5556     |
-| L2 regularization (0.001)  |  2.0647   |    0.5686     |
-| L2 regularization (0.0001) |  1.9193   |    0.5254     |
-|          Dropout           |  1.7180   |    0.5735     |
-|       Early stopping       |  1.9589   |    0.5358     |
+|                 Regularization                 | Test loss | Test accuracy |
+|:----------------------------------------------:|:---------:|:-------------:|
+|                      None                      |  1.9833   |    0.5259     |
+|               Data augmentation                |  1.5012   |    0.6087     |
+|           L1 regularization (0.001)            |  2.1171   |    0.5556     |
+|           L2 regularization (0.001)            |  2.0647   |    0.5686     |
+|           L2 regularization (0.0001)           |  1.9193   |    0.5254     |
+|                    Dropout                     |  1.7180   |    0.5735     |
+|                 Early stopping                 |  1.9589   |    0.5358     |
+| Elastic Net regularization <br /> (L1 0.001 L2 0.001) |  2.1445   |    0.5347     |
 
 **Learning curves**
 
